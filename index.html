@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images\favicon.ico" />
+    <title>Currency-Converter</title>
+    <link rel="styleSheet" href="./styles.css" />
+    <link rel="styleSheet" href="./reset.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <div class="item-1">
+        <h1>Currency_Converter</h1>
+      </div>
+
+      <div class="item-2">
+        <select name="currency1" id="fromCur">
+          <option value="NPR">NPR</option>
+          <option value="INR">INR</option>
+          <option value="GBP">GBP</option>
+          <option value="EUR">EUR</option>
+          <option value="USD">USD</option>
+          <option value="AUD">AUD</option>
+          <option value="HKD">HKD</option>
+          <option value="CAD">CAD</option>
+          <option value="AED">AED</option>
+        </select>
+        <input class="from" type="number" value="1" />
+      </div>
+
+      <div class="item-3">
+        <select name="currency2" id="toCur">
+          <option value="USD">USD</option>
+          <option value="AUD">AUD</option>
+          <option value="EUR">EUR</option>
+          <option value="GBP">GBP</option>
+          <option value="CAD">CAD</option>
+          <option value="NPR">NPR</option>
+          <option value="AED">AED</option>
+          <option value="HKD">HKD</option>
+          <option value="INR">INR</option>
+        </select>
+        <input class="to" type="number" value="" readonly />
+      </div>
+
+      <div class="item-4">
+        <p class="result">1 USD = 130 NPR</p>
+      </div>
+    </div>
+  </body>
+</html>
